@@ -1,12 +1,16 @@
 {
-  "name": "react-ga-report",
+  "name": "@assan1997/react-ga-report",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "exit 0"
+  },
+  "publishConfig": {
+    "@assan1997:registry" : "https://npm.pkg.github.com"
   },
   "dependencies": {
     "next": "12.2.0",
